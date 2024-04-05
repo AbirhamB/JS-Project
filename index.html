@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylsheet" href="/style.css"/>
+    <link rel="icon"  href="https://www.freeiconspng.com/thumbs/letter-a-icon-png/letter-a-icon-png-17.png">
+    <title>Game Score Tracker</title>
+    <style>
+    
+    button{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    background-color:#5D0E41;
+    color:white;
+    margin:15px;
+    width: 85px;
+    height: 40px;
+}
+
+body{background-color: rgb(143, 133, 153);}
+ h2{
+    color:darkgreen;
+    font-weight: bold;
+ }
+ img{
+    float:right;
+    width:550px;
+    height:440px;
+    margin-right: 130px;
+    margin-top:0;
+    border-radius: 50px;
+ }
+    </style>
+    
+</head>
+<body>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKIAPiSJoxDf6glUVmV6PoW1re-2XxotBdNlgNcwEzpbVXEzWIGWtnrHCi2DWyRiYktdg&usqp=CAU">
+
+    <h1>Score of Team A</h1>
+    <h2 id="counter1">0</h2>
+    <button id="increment1-btn" onclick="increment1()">INCREMENT</button>
+    <button id="increment2-btn" onclick="decrement1()">DECREMENT</button>
+
+
+    <h1>Score of Team B</h1>
+    <h2 id="counter2">0</h2>
+    <button id="increment3-btn" onclick="increment2()">INCREMENT</button>
+    <button id="increment4-btn" onclick="decrement2()">DECREMENT</button>
+    
+
+
+
+
+    <script src="index.js"></script>
+
+</body>
+</html>
